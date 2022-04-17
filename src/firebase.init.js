@@ -14,12 +14,12 @@ import { getAuth } from 'firebase/auth';
 //   appId:process.env.REACT_APP_appId,
 // };
 const firebaseConfig = {
-  apiKey: "AIzaSyDSxN4gukpZVrhB9vZWtNMLVmKx2IpBtog",
-  authDomain: "module-60-61.firebaseapp.com",
-  projectId: "module-60-61",
-  storageBucket: "module-60-61.appspot.com",
-  messagingSenderId: "616408796297",
-  appId: "1:616408796297:web:22e2ca84cd7f802d234a58"
+  apiKey: "AIzaSyD61fyYMLz9Nib2j63MmC_yqcIUnMXm_VY",
+  authDomain: "assignment-10-react-auth.firebaseapp.com",
+  projectId: "assignment-10-react-auth",
+  storageBucket: "assignment-10-react-auth.appspot.com",
+  messagingSenderId: "354971255864",
+  appId: "1:354971255864:web:ca3fc562d25ef673c6d2cd"
 };
 
 // Initialize Firebase

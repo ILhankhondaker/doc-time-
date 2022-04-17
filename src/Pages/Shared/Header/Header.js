@@ -1,29 +1,34 @@
 import { signOut } from 'firebase/auth';
 import React from 'react';
+import './Header.css'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import auth from '../../../firebase.init';
-import logo from '../../../images/logo.png'
 
 const Header = () => {
     const [user] = useAuthState(auth);
 
-    const handleSignOut = () =>{
+    const handleSignOut = () => {
         signOut(auth);
     }
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="primary" variant="dark">
+            <Navbar className='menu' collapseOnSelect expand="lg" sticky='top' variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
-                        <img height={30} src={logo} alt="" />
+                        <img height={30} src='https://www.doctime.com.bd/images/logo/doctime_title_logo_tm.svg' alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="home#services">Services</Nav.Link>
+
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/'>HOME</NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/reviews'>RIVIEWS</NavLink>
+
+
                             <Nav.Link href="home#experts">Experts</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -38,10 +43,10 @@ const Header = () => {
                             {
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
-                                :
-                                <Nav.Link as={Link} to="login">
-                                Login
-                            </Nav.Link>}
+                                    :
+                                    <Nav.Link as={Link} to="login">
+                                        Login
+                                    </Nav.Link>}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
