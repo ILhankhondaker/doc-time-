@@ -38,7 +38,7 @@ const Header = () => {
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Log out</button>
                                     :
                                     <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="login">
-                                        Login
+                                        <span className='bg-secondary p-2 rounded-circle'>Login</span>
                                     </NavLink>}
                         </Nav>
                     </Navbar.Collapse>
