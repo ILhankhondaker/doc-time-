@@ -25,25 +25,17 @@ const Header = () => {
                         <Nav className="me-auto">
                             <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/">Home</NavLink>
 
-
-                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/service">Services</NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/service">My Services</NavLink>
                             <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/bloog'>Blog</NavLink>
                             <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="about">About</NavLink>
 
-                            <Nav.Link to="/home#experts">Experts</Nav.Link>
-                            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
+
                         </Nav>
                         <Nav>
 
                             {
                                 user ?
-                                    <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
+                                    <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Log out</button>
                                     :
                                     <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="login">
                                         Login
