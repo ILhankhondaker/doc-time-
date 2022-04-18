@@ -28,7 +28,7 @@ const Header = () => {
 
                             <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/service">Services</NavLink>
                             <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/bloog'>Blog</NavLink>
-
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="about">About</NavLink>
 
                             <Nav.Link to="/home#experts">Experts</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
@@ -40,7 +40,7 @@ const Header = () => {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="about">About</NavLink>
+
                             {
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
