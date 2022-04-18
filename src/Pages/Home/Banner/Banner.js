@@ -17,8 +17,8 @@ const Banner = () => {
                     src='https://thumbs.dreamstime.com/b/team-group-doctors-nurses-medicine-healthcare-concept-43521488.jpg'
                     alt="First slide"
                 />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
+                <Carousel.Caption className='bannerTitle'>
+                    <h3>MY Duty To Help YOu..</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -29,7 +29,7 @@ const Banner = () => {
                     alt="Second slide"
                 />
 
-                <Carousel.Caption>
+                <Carousel.Caption className='bannerTitle'>
                     <h3>Second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>

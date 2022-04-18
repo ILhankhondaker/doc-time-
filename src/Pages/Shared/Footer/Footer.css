@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-size: smaller;
+}
+
+.info {
+    margin: 50px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+}

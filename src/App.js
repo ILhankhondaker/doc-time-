@@ -3,6 +3,7 @@ import './App.css';
 import About from './Pages/About/About';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
 import Home from './Pages/Home/Home/Home';
+import Services from './Pages/Home/Services/Services';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
+        <Route path='/service' element={<Services></Services>}></Route>
         <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>

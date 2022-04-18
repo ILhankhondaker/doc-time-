@@ -23,13 +23,18 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="home#services">Services</Nav.Link>
-
-                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/'>HOME</NavLink>
-                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/reviews'>RIVIEWS</NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/">Home</NavLink>
 
 
-                            <Nav.Link href="home#experts">Experts</Nav.Link>
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to="/service">Services</NavLink>
+
+
+
+                            {/* <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/'>HOME</NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} to='/reviews'>RIVIEWS</NavLink> */}
+
+
+                            <Nav.Link to="/home#experts">Experts</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -39,14 +44,14 @@ const Header = () => {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link as={Link} to="about">About</Nav.Link>
+                            <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="about">About</NavLink>
                             {
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
                                     :
-                                    <Nav.Link as={Link} to="login">
+                                    <NavLink className={({ isActive }) => (isActive ? "active-link" : "link")} as={Link} to="login">
                                         Login
-                                    </Nav.Link>}
+                                    </NavLink>}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

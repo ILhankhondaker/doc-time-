@@ -28,7 +28,7 @@ nav {
 }
 
 .link:hover {
-    color: #1b4388;
+    color: #bdcbe4;
 }
 
 .active-link {
@@ -36,5 +36,5 @@ nav {
     margin-left: 15px;
     font-size: 20px;
     transition: color ease-in-out 300ms;
-    color: #1b4388;
+    color: #ffffff;
 }
