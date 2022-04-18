@@ -19,7 +19,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption className='bannerTitle'>
                     <h3>MY Duty To Help YOu..</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p>"Those who suffer need you to be something more than a doctor; they need you to be a healer. And, to become a healer, you must do something even more difficult than putting your white coat on. You must take your white coat off. You must recover, embrace, and treasure the memory of your shared, frail humanity – of the dignity in each and every soul."</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -30,8 +30,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption className='bannerTitle'>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>MY Duty To Help YOu..</h3>
+
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -42,10 +42,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption className='bannerTitle'>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h3>MY Duty To Help YOu..</h3>
+
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
