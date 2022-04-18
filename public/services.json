@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Cardiothoracic surgery.",
         "price": "370$",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Cardiothoracic surgery is the field of medicine involved in surgical treatment of organs inside the thoracic cavity — generally treatment of conditions.",
         "img": "https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yJTIwc3VyZ2VyeXxlbnwwfHwwfHw%3D&w=1000&q=80"
     },
     {
         "id": 2,
         "name": "Colon and rectal surgery.",
         "price": "300$",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "A resection is a surgical procedure to remove all or part of a diseased organ or tissue. Abdominoperineal (Rectal) Resection: This surgery is performed to treat anal and distal rectal cancer. ",
         "img": "https://previews.123rf.com/images/ammentorp/ammentorp1709/ammentorp170900178/85423022-portr%C3%A4t-des-m%C3%A4nnlichen-theaters-des-chirurgen-in-kraft-das-kamera-betrachtet-doktor-scheuert-innen-u.jpg"
     },
     {
         "id": 3,
         "name": "General surgery.",
         "price": "250$",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "General surgery is a surgical specialty that focuses on abdominal contents including the esophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder,",
         "img": "https://www.verywellhealth.com/thmb/vLp1P4t6ap8BhScww6noIdZNDsQ=/1280x854/filters:fill(87E3EF,1)/86510637-56a9126d5f9b58b7d0f7db0e.JPG"
     },
     {
         "id": 4,
         "name": "Gynecology and obstetrics.",
         "price": "480$",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Obstetrics and Gynaecology (also spelled as Obstetrics and Gynecology; abbreviated as Obs and Gynae, O&G, OB-GYN and OB/GYN) is the medical specialty that.",
         "img": "https://health.sunnybrook.ca/wp-content/uploads/2014/05/yhm-cancer-nutrition-1-425x282.jpg"
     },
     {
         "id": 5,
         "name": "Gynecologic oncology.",
         "price": "700$",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Gynecologic oncology is a specialized field of medicine that focuses on cancers of the female reproductive system, including ovarian cancer,",
         "img": "https://s3-prod.modernhealthcare.com/s3fs-public/mh20181105_heart%20surgery_0.jpg"
     },
     {
         "id": 6,
         "name": "Ophthalmic surgery.",
         "price": "500$",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Eye surgery, also known as ocular surgery, is surgery performed on the eye or its adnexa, typically by an ophthalmologist. ",
         "img": "https://image.shutterstock.com/image-photo/team-asian-doctor-doing-surgery-260nw-1726929889.jpg"
     }
 ]

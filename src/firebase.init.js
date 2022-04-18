@@ -5,6 +5,7 @@ import { getAuth } from 'firebase/auth';
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyD61fyYMLz9Nib2j63MmC_yqcIUnMXm_VY",
   authDomain: "assignment-10-react-auth.firebaseapp.com",
