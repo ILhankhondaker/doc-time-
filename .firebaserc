@@ -1,7 +1,8 @@
 {
   "projects": {
-    "default": "module-60-61",
-    "build ": "module-60-61"
+    "default": "assignment-10-react-auth",
+    "build ": "module-60-61",
+    "y": "assignment-10-react-auth"
   },
   "targets": {}
 }
